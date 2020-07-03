@@ -1,0 +1,3 @@
+contador de palabras y 
+caracteres incluido el hola Mundo.
+Además ademas ,mundo; ;, ,
