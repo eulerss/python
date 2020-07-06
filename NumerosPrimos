@@ -1,0 +1,17 @@
+def evalua_primos(li,ls):
+    #Inicia lista de primos con el número 1
+    primos = [1]
+
+    for i in range(li,ls):
+        print ("Evaluando: " + str(i))
+        for num in range(2,i):
+            if i%num == 0:
+                print("No es primo")
+                print(str(i) + " modulo " + str(num) + " es " + str(i%num))
+                break
+        else:
+            print("Es primo:"+str(i))
+            primos.append(i)
+    print(primos)
+
+evalua_primos(2,21)
